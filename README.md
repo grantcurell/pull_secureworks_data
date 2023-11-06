@@ -24,11 +24,14 @@ Before you begin, ensure you have Python installed on your system.
 ### Installing Python on Windows
 
 1. Visit the official Python website at [python.org](https://www.python.org/downloads/windows/).
-2. Click on 'Downloads' and select the Windows version.
-3. Download the executable installer.
-4. Run the downloaded file and follow the installation prompts. Make sure to check the box that says "Add Python to PATH" during installation.
 
 ![](images/2023-11-06-13-04-10.png)
+
+2. Click on 'Downloads' and select the Windows version.
+3. Download the executable installer.
+4. Run the downloaded file and follow the installation prompts. Make sure to check the box that says **You must select the option that says Add Python to environment variables or it will not work.**
+
+![](images/2023-11-06-13-35-23.png)
 
 ## Downloading the Script
 
