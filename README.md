@@ -87,6 +87,8 @@ ACCESS_TOKEN = 'YOUR_ACCESS_TOKEN'
 TENANT_ID = 'YOUR_TENANT_ID'
 ```
 
+Replace them with your ACCESS_TOKEN and TENANT_ID. The access token again is a really long list of jibberish and the tenant ID should be 6 numerical digits.
+
 ## What the Script Does
 
 When the script runs, it will:
