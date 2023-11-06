@@ -29,6 +29,8 @@ Before you begin, ensure you have Python installed on your system.
 3. Download the executable installer.
 4. Run the downloaded file and follow the installation prompts. Make sure to check the box that says "Add Python to PATH" during installation.
 
+![](images/2023-11-06-13-04-10.png)
+
 ## Downloading the Script
 
 1. Go to the GitHub repository at https://github.com/grantcurell/pull_secureworks_data.
