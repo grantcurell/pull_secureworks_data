@@ -99,8 +99,9 @@ Replace them with your ACCESS_TOKEN and TENANT_ID. The access token again is a r
 After setting up your credentials, follow these steps to execute the script:
 
 1. Open Command Prompt by typing `cmd` in the Windows search bar and hitting Enter.
-2. Navigate to the directory where the script `pull_secureworks_api_data.py` is located using the `cd` command. For example, if your script is in the Downloads folder, type `cd Downloads` and press Enter.
-3. Execute the script by typing `python pull_secureworks_api_data.py` and press Enter.
+2. Run `pip install requests`
+3. Navigate to the directory where the script `pull_secureworks_api_data.py` is located using the `cd` command. For example, if your script is in the Downloads folder, type `cd Downloads` and press Enter.
+4. Execute the script by typing `python pull_secureworks_api_data.py` and press Enter.
 
 The script will start running, and you will see the output in the Command Prompt window indicating the progress of the download. Once completed, check the designated output folder for the threat intelligence data.
 
