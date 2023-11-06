@@ -5,8 +5,8 @@
     - [Installing Python on Windows](#installing-python-on-windows)
   - [Downloading the Script](#downloading-the-script)
   - [Getting SecureWorks Credentials](#getting-secureworks-credentials)
-    - [Manually Create Credentials](#manually-create-credentials)
     - [Find Tenant ID on Subscriptions Page](#find-tenant-id-on-subscriptions-page)
+    - [Getting Access Token](#getting-access-token)
       - [Step 1](#step-1)
       - [Step 2](#step-2)
       - [Step 3](#step-3)
@@ -40,8 +40,6 @@ Before you begin, ensure you have Python installed on your system.
 
 ## Getting SecureWorks Credentials
 
-### Manually Create Credentials
-
 To create your client credentials manually, follow the steps below:
 
 ### Find Tenant ID on Subscriptions Page
@@ -49,6 +47,8 @@ To create your client credentials manually, follow the steps below:
 To find your tenant ID, select **Tenant Settings** from the left-hand side navigation of XDR and choose **Subscriptions**.
 
 ![](images/2023-11-06-12-23-18.png)
+
+### Getting Access Token
 
 #### Step 1
 Log in to Taegis™ XDR in Chrome.
