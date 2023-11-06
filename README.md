@@ -56,9 +56,16 @@ Open the Chrome Developer Tools by right clicking on a web page and selecting in
 #### Step 3
 
 Go to the Console tab and enter the following:
+
 ```javascript
 copy(localStorage.access_token)
 ```
+
+It should look like this:
+
+![](images/2023-11-06-12-33-42.png)
+
+You have to type the command in and hit enter. **THE COMMAND WILL RETURN undefined**. That's ok, it puts your access token on the clipboard.
 
 At this point you have your access token in the copy clipboard. You now need to place your tenant ID and access token in the script.
 
@@ -87,4 +94,3 @@ When the script runs, it will:
 - Download all available SecureWorks data into the folder downloads in the current directory
 
 Don't forget you have to replace `YOUR_ACCESS_TOKEN` and `YOUR_TENANT_ID` with valid credentials and save the changes to the script before running it.
-
