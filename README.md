@@ -11,7 +11,6 @@
       - [Step 2](#step-2)
       - [Step 3](#step-3)
   - [Editing the Script](#editing-the-script)
-  - [Updating Your Access Token and Tenant ID](#updating-your-access-token-and-tenant-id)
   - [Running the Script](#running-the-script)
   - [What the Script Does](#what-the-script-does)
 
@@ -52,6 +51,8 @@ To find your tenant ID, select **Tenant Settings** from the left-hand side navig
 
 ### Getting Access Token
 
+While you are on SecureWorks' website do the following:
+
 #### Step 1
 Log in to Taegis™ XDR in Chrome.
 
@@ -76,12 +77,12 @@ At this point you have your access token in the copy clipboard. You now need to 
 
 **WARNING** The access token will only be valid as long as your session lasts with the SecureWorks website and then it will die.
 
+With the access token copied, move on to the next step.
+
 ## Editing the Script
 
 1. Navigate to the extracted folder and locate the [`pull_secureworks_api_data.py`](./pull_secureworks_api_data.py) file.
 2. Open the file and choose to open with your native text editor (such as Notepad).
-
-## Updating Your Access Token and Tenant ID
 
 Before running the script, update it with your `ACCESS_TOKEN` and `TENANT_ID`.
 
