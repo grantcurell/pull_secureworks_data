@@ -73,7 +73,7 @@ It should look like this:
 
 You have to type the command in and hit enter. **THE COMMAND WILL RETURN undefined**. That's ok, it puts your access token on the clipboard.
 
-**IT WILL ONLY WORK IF YOU ARE ON AND LOGGED IN TO THE SECUREWORKS WEBSITE**
+**IT WILL ONLY WORK IF YOU'RE ACTIVE TAB IS THE SECUREWORKS WEBSITE**
 
 At this point you have your access token in the copy clipboard. You now need to place your tenant ID and access token in the script.
 
